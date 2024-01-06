@@ -1,6 +1,8 @@
 <script>
     import Hero from './hero.svelte'
 
+    import down_arrow from "$lib/images/app-bar/filters-down-arrow.svg"
+
     import blob3 from "$lib/images/main-page/blob-3.svg"
     import rectangle24 from "$lib/images/main-page/rectangle-24.png"
     import rectangle26 from "$lib/images/main-page/rectangle-26.png"
@@ -14,6 +16,8 @@
 </style>
 
 <Hero />
+
+<img class="downarrow" src={down_arrow} alt="arrow">
 
 <div class="home-page">
     <div class="text-section">

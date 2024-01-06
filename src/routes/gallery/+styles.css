@@ -1,0 +1,10 @@
+.frame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    gap: 8px 8px;
+    padding: 0px 23px 22px;
+    align-items: flex-start;
+    position: relative;
+    background-color: blue;
+}

@@ -3,9 +3,9 @@
 
 .main-page-home {
     position: relative;
-    top: 40px;
+    /* top: 40px; */
     width: 1280px;
-    height: 864px;
+    height: 800px;
     background-color: #ffffff;
 }
 
@@ -13,7 +13,7 @@
     position: absolute;
     width: 1180px;
     height: 120px;
-    top: 694px;
+    top: 644px;
     left: 50px;
 }
 
@@ -21,7 +21,7 @@
     position: absolute;
     width: 1180px;
     height: 644px;
-    top: 50px;
+    /* top: 50px; */
     left: 50px;
     background-color: #9fe95a;
     border-radius: 80px 80px 0px 0px;

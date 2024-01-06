@@ -13,5 +13,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 90px;
     }
 </style>

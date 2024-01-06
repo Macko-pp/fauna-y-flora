@@ -1,11 +1,11 @@
 <script>
-    import plus from "$lib/images/app-bar/plus.png";
-    import BIG_down_arrow from "$lib/images/app-bar/BIG-down-arrow.png";
-    import magnifiyng_glass from "$lib/images/app-bar/search.png";
-    import filters_down_arrow from "$lib/images/app-bar/filters-down-arrow.png";
-    import githhub from "$lib/images/app-bar/githhub.png";
-    import small_divider from "$lib/images/app-bar/small-divider.png";
-    import gear from "$lib/images/app-bar/gear.png";
+    import plus from "$lib/images/app-bar/plus.svg";
+    import BIG_down_arrow from "$lib/images/app-bar/big-down-arrow.svg";
+    import magnifiyng_glass from "$lib/images/app-bar/search.svg";
+    import filters_down_arrow from "$lib/images/app-bar/filters-down-arrow.svg";
+    import githhub from "$lib/images/app-bar/githhub.svg";
+    import small_divider from "$lib/images/app-bar/small-divider.svg";
+    import gear from "$lib/images/app-bar/gear.svg";
 
     let search = "";
 
