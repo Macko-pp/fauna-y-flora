@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans One:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap');
+
+.main-page-home {
+    position: relative;
+    top: 40px;
+    width: 1280px;
+    height: 864px;
+    background-color: #ffffff;
+}
+
+.main-page-home .waves-oppacity {
+    position: absolute;
+    width: 1180px;
+    height: 120px;
+    top: 694px;
+    left: 50px;
+}
+
+.main-page-home .main-section {
+    position: absolute;
+    width: 1180px;
+    height: 644px;
+    top: 50px;
+    left: 50px;
+    background-color: #9fe95a;
+    border-radius: 80px 80px 0px 0px;
+    overflow: hidden;
+}
+
+.main-page-home .overlap {
+    position: relative;
+    height: 644px;
+    background-image: url($lib/images/hero/leafs.svg);
+    background-size: 100% 100%;
+}
+
+.main-page-home .overlap-group {
+    position: absolute;
+    width: 352px;
+    height: 393px;
+    top: 134px;
+    left: 135px;
+}
+
+.main-page-home .corazon-verde {
+    position: absolute;
+    width: 70px;
+    height: 111px;
+    top: 0;
+    left: 282px;
+}
+
+.main-page-home .CCB {
+    position: absolute;
+    width: 61px;
+    height: 77px;
+    top: 316px;
+    left: 0;
+}
+
+.main-page-home .logo {
+    position: absolute;
+    width: 302px;
+    height: 300px;
+    top: 38px;
+    left: 6px;
+    border-radius: 50%;
+}
+
+/* .main-page-home .div-wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 150px;
+}
+
+.main-page-home .text-wrapper {
+    position: absolute;
+    width: 112px;
+    height: 51px;
+    top: 124px;
+    left: 94px;
+    font-family: "Julius Sans One", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+} */
+
+.main-page-home .TITLE {
+    position: absolute;
+    width: 532px;
+    height: 127px;
+    top: 258px;
+    left: 531px;
+}
+
+.main-page-home .div {
+    position: relative;
+    width: 528px;
+    height: 127px;
+}
+
+.main-page-home .text-wrapper-2 {
+    position: absolute;
+    width: 528px;
+    top: 29px;
+    left: 0;
+    font-family: "Jomhuria", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 160px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.main-page-home .text-wrapper-3 {
+    position: absolute;
+    width: 352px;
+    height: 78px;
+    top: 0;
+    left: 88px;
+    font-family: "Julius Sans One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
