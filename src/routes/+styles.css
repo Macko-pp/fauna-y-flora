@@ -1,0 +1,200 @@
+.home-page {
+    position: relative;
+    width: 1280px;
+    height: 2262px;
+    background-color: #ffffff;
+}
+
+.home-page .text-section {
+    position: absolute;
+    width: 1196px;
+    height: 1084px;
+    top: 1117px;
+    left: 43px;
+}
+
+.home-page .text-wrapper {
+    position: absolute;
+    width: 983px;
+    top: 718px;
+    left: 93px;
+    font-family: "ABeeZee", Helvetica;
+    font-weight: 400;
+    color: #686868;
+    font-size: 29px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.home-page .div {
+    position: absolute;
+    width: 316px;
+    top: 640px;
+    left: 423px;
+    font-family: "Jomhuria", Helvetica;
+    font-weight: 400;
+    color: #434343;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .photo-group {
+    position: absolute;
+    width: 1192px;
+    height: 589px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .overlap-group {
+    position: relative;
+    height: 589px;
+}
+
+.home-page .blob {
+    position: absolute;
+    width: 1192px;
+    height: 568px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .rectangle {
+    width: 350px;
+    top: 89px;
+    left: 62px;
+    position: absolute;
+    height: 500px;
+    object-fit: cover;
+}
+
+.home-page .img {
+    width: 350px;
+    top: 89px;
+    left: 782px;
+    position: absolute;
+    height: 500px;
+    object-fit: cover;
+}
+
+.home-page .rectangle-2 {
+    width: 450px;
+    top: 23px;
+    left: 372px;
+    position: absolute;
+    height: 500px;
+    object-fit: cover;
+}
+
+.home-page .text-section-2 {
+    position: absolute;
+    width: 1111px;
+    height: 513px;
+    top: 536px;
+    left: 79px;
+}
+
+.home-page .picture {
+    width: 490px;
+    height: 455px;
+    top: 58px;
+    left: 617px;
+    background-image: url($lib/images/main-page/blob-2.svg);
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.home-page .stock-group-picture {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 8px;
+    left: 47px;
+}
+
+.home-page .we-are-a-dedicated {
+    position: absolute;
+    width: 583px;
+    top: 99px;
+    left: 0;
+    font-family: "ABeeZee", Helvetica;
+    font-weight: 400;
+    color: #3a3a3a;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.home-page .text-wrapper-2 {
+    position: absolute;
+    width: 379px;
+    top: 0;
+    left: 0;
+    font-family: "Jomhuria", Helvetica;
+    font-weight: 400;
+    color: #434343;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .text-section-3 {
+    position: absolute;
+    width: 1177px;
+    height: 452px;
+    top: 42px;
+    left: 43px;
+}
+
+.home-page .at-the-flora-y-fauna {
+    position: absolute;
+    width: 612px;
+    top: 91px;
+    left: 561px;
+    font-family: "ABeeZee", Helvetica;
+    font-weight: 400;
+    color: #3a3a3a;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.home-page .text-wrapper-3 {
+    position: absolute;
+    width: 379px;
+    top: 0;
+    left: 794px;
+    font-family: "Jomhuria", Helvetica;
+    font-weight: 400;
+    color: #434343;
+    font-size: 96px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .AI-plant-paper-wrapper {
+    width: 526px;
+    height: 452px;
+    top: 0;
+    left: 0;
+    background-image: url($lib/images/main-page/blob-1.svg);
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.home-page .AI-plant-paper {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 36px;
+    left: 63px;
+    object-fit: cover;
+}
