@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap');
+
+button {
+    border: none;
+}
+
+.app-bar {
+    position: fixed;
+    z-index: 9999;
+    width: calc(100% - 15px - 16px);
+    height: 70px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0px 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around
+}
+
+.app-bar .BIG-BUTTON {
+    position: relative;
+    width: 88px;
+    height: 56px;
+    /* top: 7px; */
+    /* left: 1125px; */
+}
+
+.app-bar .links-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.app-bar .add {
+    position: absolute;
+    width: 55px;
+    height: 56px;
+    top: 0;
+    left: 33px;
+    background-color: #8dd022;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.app-bar .plus {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 18px;
+    left: 18px;
+}
+
+.app-bar .overlap-group {
+    position: absolute;
+    width: 33px;
+    height: 56px;
+    top: 0;
+    left: 0;
+    background-color: #7fbc1c;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.app-bar .BIG-down-arrow {
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    top: 25px;
+    left: 11px;
+}
+
+.app-bar .search-bar {
+    position: relative;
+    width: 785px;
+    height: 46px;
+    /* top: 12px; */
+    /* left: 202px; */
+}
+
+.app-bar .search-field {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 45px;
+    padding-left: 15px;
+    height: 46px;
+    width: 614px;
+    border: 0px;
+}
+
+.app-bar .search-field:focus {
+    outline: none;
+    /* border: 2px solid #9BCE48; */
+}
+
+.app-bar .overlap {
+    position: relative;
+    width: 783px;
+    height: 46px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px #0000000a;
+}
+
+.app-bar .search-wrapper {
+    position: absolute;
+    width: 45px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    background-color: #8dd022;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.app-bar .search-wrapper:active {
+    background-color: #74AD1A;
+}
+
+.app-bar .search {
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    top: 15px;
+    left: 15px;
+}
+
+.app-bar .div {
+    position: absolute;
+    width: 109px;
+    height: 46px;
+    top: 0;
+    left: 674px;
+    background-color: #f4f4f4;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.app-bar .filters-down-arrow {
+    position: absolute;
+    width: 15px;
+    height: 8px;
+    top: 19px;
+    left: 15px;
+}
+
+.app-bar .text-wrapper {
+    position: absolute;
+    width: 49px;
+    top: 16px;
+    left: 45px;
+    font-family: "ABeeZee", Helvetica;
+    font-weight: 400;
+    color: #b3b3b3;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.app-bar .links {
+    position: relative;
+    width: 110px;
+    height: 46px;
+    /* top: 12px; */
+    /* left: 1000px; */
+}
+
+.app-bar .overlap-2 {
+    position: relative;
+    height: 46px;
+}
+
+.app-bar .rectangle {
+    left: 55px;
+    border-radius: 0px 12px 12px 0px;
+    position: absolute;
+    width: 55px;
+    height: 46px;
+    top: 0;
+    background-color: #d9d9d9;
+}
+
+.app-bar .rectangle-2 {
+    left: 0;
+    border-radius: 12px 0px 0px 12px;
+    position: absolute;
+    width: 55px;
+    height: 46px;
+    top: 0;
+    background-color: #d9d9d9;
+}
+
+.app-bar .githhub {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    left: 18px;
+}
+
+.app-bar .small-divider {
+    position: absolute;
+    width: 2px;
+    height: 46px;
+    top: 0;
+    left: 54px;
+}
+
+.app-bar .gear {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    left: 74px;
+}
+
+.app-bar .user {
+    position: relative;
+    width: 178px;
+    height: 41px;
+    /* top: 15px; */
+    /* left: 18px; */
+}
+
+.app-bar .PFP {
+    position: absolute;
+    width: 40px;
+    height: 41px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.app-bar .text-wrapper-2 {
+    position: absolute;
+    width: 94px;
+    top: 0;
+    left: 50px;
+    font-family: "Jomhuria", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.app-bar .text-wrapper-3 {
+    position: absolute;
+    width: 125px;
+    top: 23px;
+    left: 49px;
+    font-family: "ABeeZee", Helvetica;
+    font-weight: 400;
+    color: #b6b6b6;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+}
