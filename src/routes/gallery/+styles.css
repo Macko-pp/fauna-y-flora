@@ -6,4 +6,15 @@
     padding: 0px 23px 22px;
     align-items: flex-start;
     position: relative;
+    justify-content: center;
+}
+
+.title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333;
 }

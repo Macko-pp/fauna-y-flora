@@ -1,23 +1,19 @@
 <script>
-    import Hero from './hero.svelte'
+    import Hero from "./hero.svelte";
 
-    import down_arrow from "$lib/images/app-bar/filters-down-arrow.svg"
+    import down_arrow from "$lib/images/app-bar/filters-down-arrow.svg";
 
-    import blob3 from "$lib/images/main-page/blob-3.svg"
-    import rectangle24 from "$lib/images/main-page/rectangle-24.png"
-    import rectangle26 from "$lib/images/main-page/rectangle-26.png"
-    import rectangle25 from "$lib/images/main-page/rectangle-25.png"
-    import stockGroupPicture from "$lib/images/main-page/stock-group-picture.png"
-    import AIPlantPaper from "$lib/images/main-page/ai-plant-paper.png"
+    import blob3 from "$lib/images/main-page/blob-3.svg";
+    import rectangle24 from "$lib/images/main-page/rectangle-24.png";
+    import rectangle26 from "$lib/images/main-page/rectangle-26.png";
+    import rectangle25 from "$lib/images/main-page/rectangle-25.png";
+    import stockGroupPicture from "$lib/images/main-page/stock-group-picture.png";
+    import AIPlantPaper from "$lib/images/main-page/ai-plant-paper.png";
 </script>
-
-<style>
-    @import "./+styles.css";
-</style>
 
 <Hero />
 
-<img class="downarrow" src={down_arrow} alt="arrow">
+<img class="downarrow" src={down_arrow} alt="arrow" />
 
 <div class="home-page">
     <div class="text-section">
@@ -80,3 +76,7 @@
         </div>
     </div>
 </div>
+
+<style>
+    @import "./+styles.css";
+</style>

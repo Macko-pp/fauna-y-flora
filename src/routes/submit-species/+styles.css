@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap");
+
+.box {
+    position: relative;
+    width: 1162px;
+    height: 650px;
+}
+
+.box .input-areas {
+    /* position: fixed; */
+    width: 1168px;
+    height: 650px;
+    /* top: 0;
+    left: 0; */
+}
+
+.box .image-upload {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    border-radius: 74px;
+}
+
+.box .plus {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 287px;
+    left: 213px;
+}
+
+.box .inputs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 636px;
+}
+
+.box .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+.box .longName {
+    position: relative;
+    width: 526px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    border: 3px solid;
+    border-color: #c4c4c4;
+}
+
+.box .name {
+    position: relative;
+    width: 526px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    border: 3px solid;
+    border-color: #c4c4c4;
+}
+
+.box .warning {
+    position: relative;
+    width: 202px;
+    height: 45px;
+    border-radius: 32px;
+    background-color: #f4f4f4;
+    border: 3px solid;
+    border-color: #c4c4c4;
+}
+
+.box .text-wrapper {
+    font-family: "Josefin Sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+}
+
+.box .description {
+    position: relative;
+    width: 526px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    border: 3px solid;
+    border-color: #c4c4c4;
+    resize: none;
+}
+
+.box .submit {
+    width: 150px;
+    height: 50px;
+    background-color: #8dd022;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: "Josefin Sans", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+}

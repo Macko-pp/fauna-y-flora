@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap');
-
-button {
-    border: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap");
 
 .app-bar {
     position: fixed;
@@ -18,7 +14,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content: space-around
+    align-content: space-around;
 }
 
 .app-bar .BIG-BUTTON {
@@ -116,7 +112,7 @@ button {
 }
 
 .app-bar .search-wrapper:active {
-    background-color: #74AD1A;
+    background-color: #74ad1a;
 }
 
 .app-bar .search {
@@ -208,7 +204,7 @@ button {
     left: 54px;
 }
 
-.app-bar .gear {
+.app-bar .home {
     position: absolute;
     width: 20px;
     height: 20px;

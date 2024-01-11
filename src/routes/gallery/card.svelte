@@ -3,10 +3,13 @@
     export let name: string;
     export let warning: string;
     export let description: string;
+    export let imageUrl: string;
+
+    // console.log(imageUrl)
 </script>
 
 <div class="card">
-    <img src="https://placehold.co/270x220?text={name.replace(/ /g, "+")}" alt="species" class="image">
+    <img src={imageUrl} alt={longName} class="image" />
     <p class="scientific-name">{longName}</p>
     <div class="text-wrapper">{name}</div>
 

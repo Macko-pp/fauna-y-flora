@@ -4,20 +4,13 @@
     import CCB from "$lib/images/hero/CCB.svg";
 </script>
 
-<style>
-    @import "./hero.css";
-</style>
-
 <div class="main-page-home">
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <img class="waves-oppacity" src={wavesOppacity} />
+    <img class="waves-oppacity" src={wavesOppacity} alt="Colored waves with different oppacity that make the website look cool and modern"/>
     <div class="main-section">
         <div class="overlap">
             <div class="overlap-group">
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <img class="corazon-verde" src={corazonVerde} />
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <img class="CCB" src={CCB} />
+                <img class="corazon-verde" src={corazonVerde} alt="Corazon Verde Logo"/>
+                <img class="CCB" src={CCB} alt="CCB Logo"/>
                 <img class="logo" src="https://placehold.co/300?text=LOGO" alt="plaeholder" />
             </div>
             <div class="TITLE">
@@ -29,3 +22,7 @@
         </div>
     </div>
 </div>
+
+<style>
+    @import "./hero.css";
+</style>

@@ -5,19 +5,14 @@
     import filters_down_arrow from "$lib/images/app-bar/filters-down-arrow.svg";
     import githhub from "$lib/images/app-bar/githhub.svg";
     import small_divider from "$lib/images/app-bar/small-divider.svg";
-    import gear from "$lib/images/app-bar/gear.svg";
+    import home from "$lib/images/app-bar/home.svg";
 
     let search = "";
 
     function handleSearch() {
-        console.log(search)
+        console.log(search);
     }
-
 </script>
-
-<style>
-    @import "./app-bar.css";
-</style>
 
 <div class="app-bar">
     <div class="user">
@@ -27,15 +22,15 @@
     </div>
     <div class="search-bar">
         <div class="overlap">
-            <button on:click={handleSearch} class="search-wrapper">
+            <a href="/gallery" on:click={handleSearch} class="search-wrapper">
                 <img class="search" src={magnifiyng_glass} alt="Search Icon" />
-            </button>
-            <input class="search-field" type="text" bind:value={search}>
+            </a>
+            <input class="search-field" type="text" bind:value={search} />
             <div class="div">
                 <img
-                class="filters-down-arrow"
-                src={filters_down_arrow}
-                alt="Filters Down Arrow Icon"
+                    class="filters-down-arrow"
+                    src={filters_down_arrow}
+                    alt="Filters Down Arrow Icon"
                 />
                 <div class="text-wrapper">Filters</div>
             </div>
@@ -48,11 +43,13 @@
                 <div class="rectangle-2"></div>
                 <img class="githhub" src={githhub} alt="GitHub Icon" />
                 <img class="small-divider" src={small_divider} alt="Small Divider" />
-                <img class="gear" src={gear} alt="Gear Icon" />
+                <a href="/">
+                    <img class="home" src={home} alt="Gear Icon" />
+                </a>
             </div>
         </div>
         <div class="BIG-BUTTON">
-            <a class="add" href="https://example.com">
+            <a class="add" href="/submit-species">
                 <img class="plus" src={plus} alt="Plus Icon" />
             </a>
             <div class="overlap-group">
@@ -61,3 +58,7 @@
         </div>
     </div>
 </div>
+
+<style>
+    @import "./app-bar.css";
+</style>
