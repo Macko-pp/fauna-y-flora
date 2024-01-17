@@ -17,10 +17,14 @@
 
 .card .image {
     position: relative;
-    width: 270px;
-    height: 220px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    left: 25px;
+    /* width: 270px; */
+    /* height: 220px; */
     background-color: #d9d9d9;
     border-radius: 13px;
+    transform: rotate(90deg);
 }
 
 .card .scientific-name {

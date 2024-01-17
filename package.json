@@ -26,6 +26,6 @@
 	"type": "module",
 	"dependencies": {
 		"@supabase/supabase-js": "^2.39.2",
-		"sharp": "^0.33.1"
+		"sharp": "^0.33.2"
 	}
 }

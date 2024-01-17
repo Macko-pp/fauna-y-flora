@@ -5,11 +5,13 @@
     export let description: string;
     export let imageUrl: string;
 
+    const improvedUrl = `https://media.assets.so/?url=${imageUrl}&w=220&h=270&f=webp&fit=contain`
+
     // console.log(imageUrl)
 </script>
 
 <div class="card">
-    <img src={imageUrl} alt={longName} class="image" />
+    <img src={improvedUrl} alt={longName} class="image" />
     <p class="scientific-name">{longName}</p>
     <div class="text-wrapper">{name}</div>
 
