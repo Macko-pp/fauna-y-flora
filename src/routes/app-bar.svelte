@@ -39,12 +39,14 @@
     <div class="links-button">
         <div class="links">
             <div class="overlap-2">
-                <div class="rectangle"></div>
-                <div class="rectangle-2"></div>
-                <img class="githhub" src={githhub} alt="GitHub Icon" />
+                <a href="https://github.com/Macko-pp/flora-y-fauna" class="rectangle">
+                    <img class="githhub" src={githhub} alt="GitHub Icon" />
+                </a>
+
                 <img class="small-divider" src={small_divider} alt="Small Divider" />
-                <a href="/">
-                    <img class="home" src={home} alt="Gear Icon" />
+
+                <a href="/" class="rectangle-2">
+                    <img class="home" src={home} alt="Home Icon" />
                 </a>
             </div>
         </div>
