@@ -7,10 +7,10 @@
 
     const improvedUrl = `https://media.assets.so/?url=${imageUrl}&w=220&h=270&f=webp&fit=contain`
 
-    // console.log(imageUrl)
+    const cardUrl = `/gallery/${encodeURIComponent(longName)}`
 </script>
 
-<div class="card">
+<a class="card" href={cardUrl}>
     <img src={improvedUrl} alt={longName} class="image" />
     <p class="scientific-name">{longName}</p>
     <div class="text-wrapper">{name}</div>
@@ -24,7 +24,7 @@
     <p class="description">
         {description}
     </p>
-</div>
+</a>
 
 <style>
     @import "./card.css";

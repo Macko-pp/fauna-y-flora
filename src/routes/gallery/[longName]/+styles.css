@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap');
+
+.macbook-air {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.macbook-air .div {
+    background-color: #ffffff;
+    width: 1072px;
+    height: 832px;
+    position: relative;
+}
+
+.macbook-air .image {
+    position: absolute;
+    width: 498px;
+    height: 635px;
+    top: 70px;
+    left: 69px;
+    background-color: #f4f4f4;
+    border-radius: 74px;
+}
+
+.macbook-air .info {
+    display: inline-flex;
+    flex-direction: column;
+    height: 692px;
+    align-items: flex-start;
+    gap: 33px;
+    position: absolute;
+    top: 70px;
+    left: 636px;
+}
+
+.macbook-air .long-name {
+    /* position: relative;
+    width: 383px;
+    height: 15px;
+    /* margin-top: -1px; */
+    font-family: "Josefin Sans", Helvetica;
+    font-weight: 400;
+    /* color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal; */
+
+    font-size: 23px;
+    position: relative;
+    top: 29px;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: rgb(176, 176, 176);
+}
+
+.macbook-air .name {
+    position: relative;
+    width: 403px;
+    height: 52px;
+    font-family: "Jomhuria", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.macbook-air .chip {
+    position: relative;
+    width: 209px;
+    height: 32px;
+    background-color: #ffef9d;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #ffd600;
+}
+
+.macbook-air .warning {
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    top: 7px;
+    left: 48px;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    color: #cdac00;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.macbook-air .description {
+    position: relative;
+    top: -33px;
+    width: 394px;
+    height: 360px;
+    font-family: "Josefin Sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
