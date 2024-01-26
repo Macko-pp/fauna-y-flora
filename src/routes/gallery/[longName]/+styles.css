@@ -61,6 +61,7 @@
 
 .macbook-air .name {
     position: relative;
+    top: -10px;
     width: 403px;
     height: 52px;
     font-family: "Jomhuria", Helvetica;
@@ -101,7 +102,7 @@
 
 .macbook-air .description {
     position: relative;
-    top: -33px;
+    top: -20px;
     width: 394px;
     height: 360px;
     font-family: "Josefin Sans", Helvetica;

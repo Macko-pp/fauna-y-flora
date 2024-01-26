@@ -10,10 +10,15 @@
         <div class="info">
             <div class="long-name">{species.longName}</div>
             <div class="name">{species.name}</div>
-            <div class="chip"><div class="warning">{species.warning}</div></div>
+
+            {#if species.warning != ""}
+                <div class="chip"><div class="warning">{species.warning}</div></div>
+            {/if}
+
             <p class="description">
                 {species.description}
             </p>
+
         </div>
     </div>
 </div>
