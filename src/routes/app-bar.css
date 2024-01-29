@@ -109,6 +109,7 @@
     left: 0;
     background-color: #8dd022;
     border-radius: 10px 0px 0px 10px;
+    border: none;
 }
 
 .app-bar .search-wrapper:active {

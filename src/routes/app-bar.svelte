@@ -15,17 +15,22 @@
 </script>
 
 <div class="app-bar">
-    <div class="user">
-        <img class="PFP" src="https://placehold.co/40?text=PFP" alt="Profile" />
-        <div class="text-wrapper-2">User Name</div>
-        <div class="text-wrapper-3">username@example.com</div>
-    </div>
+    <a href="/" class="user">
+        <img class="PFP" src="https://placehold.co/40?text=Flora y Fauna" alt="Profile" />
+        <div class="text-wrapper-2">Flora & Fauna</div>
+        <div class="text-wrapper-3">Made by Max Konietzko</div>
+    </a>
+
     <div class="search-bar">
         <div class="overlap">
-            <a href="/gallery" on:click={handleSearch} class="search-wrapper">
-                <img class="search" src={magnifiyng_glass} alt="Search Icon" />
-            </a>
-            <input class="search-field" type="text" bind:value={search} />
+
+            <form method="POST" action="gallery/?/search">
+                <button type="submit" on:click={handleSearch} class="search-wrapper">
+                    <img class="search" src={magnifiyng_glass} alt="Search Icon" />
+                </button>
+                <input class="search-field" type="text" formaction="?/search" name="searchTerms" bind:value={search} />
+            </form>
+
             <div class="div">
                 <img
                     class="filters-down-arrow"

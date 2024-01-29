@@ -3,6 +3,7 @@
 </script>
 
 <AppBar />
+
 <div class="center">
     <slot />
 </div>
