@@ -4,6 +4,10 @@
     const species = data.species[0];
 </script>
 
+<svelte:head>
+    <title>{species.name}</title>
+</svelte:head>
+
 <div class="macbook-air">
     <div class="div">
         <img src={species.imageUrl} class="image" alt="¯\_(ツ)_/¯">

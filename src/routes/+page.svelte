@@ -4,12 +4,16 @@
     import down_arrow from "$lib/images/app-bar/filters-down-arrow.svg";
 
     import blob3 from "$lib/images/main-page/blob-3.svg";
-    import rectangle24 from "$lib/images/main-page/rectangle-24.png";
-    import rectangle26 from "$lib/images/main-page/rectangle-26.png";
-    import rectangle25 from "$lib/images/main-page/rectangle-25.png";
-    import stockGroupPicture from "$lib/images/main-page/stock-group-picture.png";
-    import AIPlantPaper from "$lib/images/main-page/ai-plant-paper.png";
+    import rectangle24 from "$lib/images/main-page/rectangle-24.webp";
+    import rectangle26 from "$lib/images/main-page/rectangle-26.webp";
+    import rectangle25 from "$lib/images/main-page/rectangle-25.webp";
+    import stockGroupPicture from "$lib/images/main-page/stock-group-picture.webp";
+    import AIPlantPaper from "$lib/images/main-page/ai-plant-paper.webp";
 </script>
+
+<svelte:head>
+    <title>Flora & Fauna</title>
+</svelte:head>
 
 <Hero />
 
@@ -30,24 +34,19 @@
         <div class="div">How it works</div>
         <div class="photo-group">
             <div class="overlap-group">
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <img class="blob" src={blob3} />
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <img class="rectangle" src={rectangle24} />
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <img class="img" src={rectangle26} />
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <img class="rectangle-2" src={rectangle25} />
+                <img class="blob" src={blob3} alt="a big green blob as a background to the 3 images inside it"/>
+                <img class="rectangle" src={rectangle24} alt="a monstera deliciosa leaf"/>
+                <img class="img" src={rectangle26} alt="a variegated croton"/>
+                <img class="rectangle-2" src={rectangle25} alt="a cute, small, and narrow orange flower"/>
             </div>
         </div>
     </div>
     <div class="text-section-2">
         <div class="picture">
-            <!-- svelte-ignore a11y-missing-attribute -->
-            <img class="stock-group-picture" src={stockGroupPicture} />
+            <img class="stock-group-picture" src={stockGroupPicture} alt="Stock: a group of 4 women in a greenhouse being happy"/>
         </div>
         <p class="we-are-a-dedicated">
-            We are a dedicated group of students from the &#34;Flora y Fauna&#34; Corazón Verde
+            We are a dedicated group of students from the &#34;Fauna y Flora&#34; Corazón Verde
             campaign, united by our passion for the environment and love for the natural world.
             Committed to making a positive impact, we have come together to create a comprehensive
             catalog of the flora and fauna in our school. Through our collective efforts, we aim to
@@ -61,7 +60,7 @@
     </div>
     <div class="text-section-3">
         <p class="at-the-flora-y-fauna">
-            At the &#34;Flora y Fauna&#34; Corazón Verde campaign website, we, a passionate group of
+            At the &#34;Fauna y Flora&#34; Corazón Verde campaign website, we, a passionate group of
             students, have collaborated to create a remarkable catalog of the flora and fauna within
             our school. Our website is a go-to resource, offering extensive descriptions, scientific
             names, and warnings for each species. Our goal is to promote environmental awareness,
@@ -71,8 +70,7 @@
         </p>
         <div class="text-wrapper-3">What do we do?</div>
         <div class="AI-plant-paper-wrapper">
-            <!-- svelte-ignore a11y-missing-attribute -->
-            <img class="AI-plant-paper" src={AIPlantPaper} />
+            <img class="AI-plant-paper" src={AIPlantPaper} alt="AI generated: some leafs on top of some square peices of paper"/>
         </div>
     </div>
 </div>

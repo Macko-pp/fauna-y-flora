@@ -5,6 +5,10 @@
     export let form;
 </script>
 
+<svelte:head>
+    <title>Species Gallery</title>
+</svelte:head>
+
 <div class="frame">
     {#if form?.searchResults.length == 0 || form?.searchResults == undefined || form?.searchResults == null}
         {#if data.species.length == 0}

@@ -83,7 +83,7 @@
     margin-left: 45px;
     padding-left: 15px;
     height: 46px;
-    width: 614px;
+    width: 715px;
     border: 0px;
 }
 
@@ -124,7 +124,7 @@
     left: 15px;
 }
 
-.app-bar .div {
+/* .app-bar .div {
     position: absolute;
     width: 109px;
     height: 46px;
@@ -132,7 +132,7 @@
     left: 674px;
     background-color: #f4f4f4;
     border-radius: 0px 10px 10px 0px;
-}
+} */
 
 .app-bar .filters-down-arrow {
     position: absolute;

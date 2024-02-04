@@ -24,6 +24,10 @@
     }
 </script>
 
+<svelte:head>
+    <title>Submit Species</title>
+</svelte:head>
+
 <div class="box">
     <div class="input-areas">
         <form method="post" enctype="multipart/form-data">
