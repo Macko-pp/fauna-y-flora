@@ -11,10 +11,6 @@
     import AIPlantPaper from "$lib/images/main-page/ai-plant-paper.webp";
 </script>
 
-<svelte:head>
-    <title>Flora & Fauna</title>
-</svelte:head>
-
 <Hero />
 
 <img class="downarrow" src={down_arrow} alt="arrow" />

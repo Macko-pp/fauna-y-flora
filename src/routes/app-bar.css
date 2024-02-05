@@ -134,15 +134,15 @@
     border-radius: 0px 10px 10px 0px;
 } */
 
-.app-bar .filters-down-arrow {
+/* .app-bar .filters-down-arrow {
     position: absolute;
     width: 15px;
     height: 8px;
     top: 19px;
     left: 15px;
-}
+} */
 
-.app-bar .text-wrapper {
+/* .app-bar .text-wrapper {
     position: absolute;
     width: 49px;
     top: 16px;
@@ -154,7 +154,7 @@
     letter-spacing: -0.14px;
     line-height: normal;
     white-space: nowrap;
-}
+} */
 
 .app-bar .links {
     position: relative;

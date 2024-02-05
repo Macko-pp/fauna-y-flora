@@ -12,7 +12,7 @@
 <div class="app-bar">
     <a href="/" class="user">
         <img class="PFP" src={logo} alt="Logo" />
-        <div class="text-wrapper-2">Flora & Fauna</div>
+        <div class="text-wrapper-2">Fauna & Flora</div>
         <div class="text-wrapper-3">Made by Max Konietzko</div>
     </a>
 
@@ -25,7 +25,7 @@
                         <img class="search" src={magnifiyng_glass} alt="Search Icon" />
                     </button>
                 </label>
-                <input class="search-field" type="text" formaction="?/search" name="searchTerms" />
+                <input class="search-field" type="text" formaction="?/search" name="searchTerms" id="searchTerms" />
             </form>
 
             <!-- <div class="div">

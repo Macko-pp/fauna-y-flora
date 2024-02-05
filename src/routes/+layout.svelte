@@ -2,6 +2,10 @@
     import AppBar from "./app-bar.svelte"
 </script>
 
+<svelte:head>
+    <title>Fauna & Flora</title>
+</svelte:head>
+
 <AppBar />
 
 <div class="center">

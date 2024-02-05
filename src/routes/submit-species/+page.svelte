@@ -25,7 +25,7 @@
 </script>
 
 <svelte:head>
-    <title>Submit Species</title>
+    <title>Fauna & Flora - Submit Species</title>
 </svelte:head>
 
 <div class="box">

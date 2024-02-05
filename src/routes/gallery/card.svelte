@@ -7,7 +7,7 @@
 
     const improvedUrl = `https://media.assets.so/?url=${imageUrl}&w=220&h=270&f=webp&fit=contain`
 
-    const cardUrl = `/gallery/${encodeURIComponent(longName)}`
+    const cardUrl = `/${encodeURIComponent(longName)}`
 </script>
 
 <a class="card" href={cardUrl}>
@@ -17,8 +17,6 @@
 
     {#if warning != ""}
         <div class="chip"><div class="div">{warning}</div></div>
-    {:else}
-        <!-- ¯\_(ツ)_/¯ -->
     {/if}
 
     <p class="description">
