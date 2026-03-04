@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let data;
 
     const species = data.species[0];
@@ -10,7 +10,7 @@
 
 <div class="macbook-air">
     <div class="div">
-        <img src={species.imageUrl} class="image" alt="¯\_(ツ)_/¯">
+        <img src={species.imageUrl} class="image" alt="Loading...">
         <div class="info">
             <div class="long-name">{species.longName}</div>
             <div class="name">{species.name}</div>
